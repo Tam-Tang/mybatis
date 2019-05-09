@@ -6,7 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MXMApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MXMApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MXMApplication.class, args);
+        System.out.println("123");
+    }
 }
